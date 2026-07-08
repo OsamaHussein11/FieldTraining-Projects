@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipes</title>
+    <link rel="stylesheet" href="../CSS/all.min.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
+  <body>
+    <header id="mainHeader">
+      <div class="container">
+        <div class="logo">
+          <div class="left">
+            <img src="../images/Logo.png" alt="Logo" />
+            <h1>Healthy Recipe Finder</h1>
+          </div>
+          <div class="mid">
+            <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipes.html" class="active">Recipes</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="right">
+            <a href="#card">Browse Recipes</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero1">
+        <div class="container">
+          <h1><span>Explore</span> our simple, healthy recipes</h1>
+          <p>
+            Discover eight quick, whole-food dishes that fit real-life schedules
+            and taste <br />amazing. Use the search bar to find a recipe by name
+            or ingredient, or simply scroll<br />
+            the list and let something delicious catch your eye.
+          </p>
+          <div class="menu">
+            <div>
+              <select>
+                <option value="">Max Prep Time</option>
+                <option value="5">5 min</option>
+                <option value="10">10 min</option>
+                <option value="15">15 min</option>
+                <option value="20">20 min</option>
+              </select>
+
+              <select>
+                <option value="">Max Cook Time</option>
+                <option value="5">5 min</option>
+                <option value="10">10 min</option>
+                <option value="15">15 min</option>
+              </select>
+            </div>
+            <div class="search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input
+                type="search"
+                placeholder="     Search by name or ingredient..."
+              />
+            </div>
+          </div>
+          <p class="recipe-count"><span id="recipeCount">8</span> recipes available</p>
+        </div>
+      </section>
+
+      <section id="quickTips">
+        <div class="container">
+          <div class="tip-card">
+            <i class="fa-solid fa-seedling"></i>
+            <h3>Fresh ingredients</h3>
+            <p>Choose meals with vegetables, grains, protein, and light sauces.</p>
+          </div>
+          <div class="tip-card">
+            <i class="fa-solid fa-stopwatch"></i>
+            <h3>Fast cooking</h3>
+            <p>Use the filters to find recipes that match your available time.</p>
+          </div>
+          <div class="tip-card">
+            <i class="fa-solid fa-bowl-food"></i>
+            <h3>Easy portions</h3>
+            <p>Check servings before choosing a meal for yourself or your family.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="card">
+        <div class="container">
+          <div class="cards">
+            <div class="card" data-prep="10" data-cook="1">
+              <img
+                src="../images/salad.png"
+                alt="recipe"
+              />
+              <h2>Mediterranean Chickpea Salad</h2>
+              <p>
+                A refreshing, protein-packed salad tossed in a lemon-olive oil dressing.
+              </p>
+              <div class="recipe">
+                <div class="row">
+                  <div>
+                    <i class="fa-solid fa-user"></i>
+                    <span>Servings: 2 </span>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-alarm-clock"></i>
+                    <span>Prep: 10 mins</span>
+                  </div>
+                </div>
+                <div class="row1">
+                  <i class="fa-solid fa-bell-concierge"></i>
+                  <span>Cook: 1 mins</span>
+                </div>
+              </div>
+              <a href="#" class="view-recipe">View Recipe</a>
+            </div>
+
+            <div class="card" data-prep="5" data-cook="5">
+              <img
+                src="../images/Toast.png"
+                alt="recipe"
+              />
+              <h2>Avocado & Tomato Wholegrain Toast</h2>
+              <p>
+                Creamy avocado spread over toasted wholegrain bread, topped with juicy tomatoes.
+              </p>
+              <div class="recipe">
+                <div class="row">
+                  <div>
+                    <i class="fa-solid fa-user"></i>
+                    <span>Servings: 1</span>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-alarm-clock"></i>
+                    <span>Prep: 5 mins</span>
+                  </div>
+                </div>
+                <div class="row1">
+                  <i class="fa-solid fa-bell-concierge"></i>
+                  <span>Cook: 5 mins</span>
+                </div>
+              </div>
+              <a href="#" class="view-recipe">View Recipe</a>
+            </div>
+
+            <div class="card" data-prep="5" data-cook="12">
+              <img
+                src="../images/fish.png"
+                alt="recipe"
+              />
+              <h2>One-Pan Lemon Garlic Salmon</h2>
+              <p>
+                A 15-minute weeknight dinner of flaky salmon and tender asparagus.
+              </p>
+              <div class="recipe">
+                <div class="row">
+                  <div>
+                    <i class="fa-solid fa-user"></i>
+                    <span>Servings: 2</span>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-alarm-clock"></i>
+                    <span>Prep: 5 mins</span>
+                  </div>
+                </div>
+                <div class="row1">
+                  <i class="fa-solid fa-bell-concierge"></i>
+                  <span>Cook: 12 mins</span>
+                </div>
+              </div>
+              <a href="#" class="view-recipe">View Recipe</a>
+            </div>
+
+            <div class="card" data-prep="10" data-cook="15">
+              <img
+                src="../images/bowl.png"
+                alt="recipe"
+              />
+              <h2>Quinoa Veggie Power Bowl</h2>
+              <p>
+                A balanced bowl of fluffy quinoa, roasted veggies, and healthy fats.
+              </p>
+              <div class="recipe">
+                <div class="row">
+                  <div>
+                    <i class="fa-solid fa-user"></i>
+                    <span>Servings: 2</span>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-alarm-clock"></i>
+                    <span>Prep: 10 mins</span>
+                  </div>
+                </div>
+                <div class="row1">
+                  <i class="fa-solid fa-bell-concierge"></i>
+                  <span>Cook: 15 mins</span>
+                </div>
+              </div>
+              <a href="#" class="view-recipe">View Recipe</a>
+            </div>
+
+            <div class="card" data-prep="10" data-cook="15">
+              <img
+                src="../images/Tacos.png"
+                alt="recipe"
+              />
+              <h2>Sweet Potato Black Bean Tacos</h2>
+              <p>
+                Smoky roasted sweet potatoes and black beans tucked into warm tortillas.
+              </p>
+              <div class="recipe">
+                <div class="row">
+                  <div>
+                    <i class="fa-solid fa-user"></i>
+                    <span>Servings: 3</span>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-alarm-clock"></i>
+                    <span>Prep: 10 mins</span>
+                  </div>
+                </div>
+                <div class="row1">
+                  <i class="fa-solid fa-bell-concierge"></i>
+                  <span>Cook: 15 mins</span>
+                </div>
+              </div>
+              <a href="#" class="view-recipe">View Recipe</a>
+            </div>
+
+            <div class="card" data-prep="5" data-cook="1">
+              <img
+                src="../images/Yogurt.png"
+                alt="recipe"
+              />
+              <h2>Greek Yogurt Berry Parfait</h2>
+              <p>
+                Layers of creamy yogurt, fresh berries and crunchy oats for a high-protein snack.
+              </p>
+              <div class="recipe">
+                <div class="row">
+                  <div>
+                    <i class="fa-solid fa-user"></i>
+                    <span>Servings: 1</span>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-alarm-clock"></i>
+                    <span>Prep: 5 mins</span>
+                  </div>
+                </div>
+                <div class="row1">
+                  <i class="fa-solid fa-bell-concierge"></i>
+                  <span>Cook: 1 mins</span>
+                </div>
+              </div>
+              <a href="#" class="view-recipe">View Recipe</a>
+            </div>
+
+            <div class="card" data-prep="10" data-cook="20">
+              <img
+                src="../images/Soup.png"
+                alt="recipe"
+              />
+              <h2>Lentil & Spinach Soup</h2>
+              <p>
+                A hearty 30-minute soup rich in plant protein and iron.
+              </p>
+              <div class="recipe">
+                <div class="row">
+                  <div>
+                    <i class="fa-solid fa-user"></i>
+                    <span>Servings: 4</span>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-alarm-clock"></i>
+                    <span>Prep: 10 mins</span>
+                  </div>
+                </div>
+                <div class="row1">
+                  <i class="fa-solid fa-bell-concierge"></i>
+                  <span>Cook: 20 mins</span>
+                </div>
+              </div>
+              <a href="#" class="view-recipe">View Recipe</a>
+            </div>
+
+            <div class="card" data-prep="5" data-cook="10">
+              <img
+                src="../images/Pancake.png"
+                alt="recipe"
+              />
+              <h2>Banana Oat Pancakes</h2>
+              <p>
+                Flour-free pancakes sweetened naturally with ripe bananas.
+              </p>
+              <div class="recipe">
+                <div class="row">
+                  <div>
+                    <i class="fa-solid fa-user"></i>
+                    <span>Servings: 2</span>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-alarm-clock"></i>
+                    <span>Prep: 5 mins</span>
+                  </div>
+                </div>
+                <div class="row1">
+                  <i class="fa-solid fa-bell-concierge"></i>
+                  <span>Cook: 10 mins</span>
+                </div>
+              </div>
+              <a href="#" class="view-recipe">View Recipe</a>
+            </div>
+            
+          </div>
+          <p id="noResults">No recipes found. Try another search or change the filters.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 <span>Osama</span> Hussein. All Rights Reserved.</p>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+      <button id="scrollTopBtn"><i class="fa-solid fa-arrow-up"></i></button>
+    <script src="../JS/main.js"></script>
+  </body>
+</html>
