@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global News Network</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <div class="top-line">
+      <h1 class="logo">Global News Network</h1>
+    </div>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="category.html#politics">Politics</a></li>
+        <li><a href="category.html#technology">Technology</a></li>
+        <li><a href="category.html#sports">Sports</a></li>
+        <li><a href="category.html#entertainment">Entertainment</a></li>
+        <li><a class="" href="about.html">About</a></li>
+        <li><a class="" href="contact.html">Contact</a></li>
+      </ul>
+      <form class="search-box" action="search.html" method="GET">
+        <input type="text" name="q" placeholder="Search articles...">
+        <button type="submit">Search</button>
+      </form>
+    </nav>
+  </div>
+</header>
+<main class="container">
+  <section class="hero">
+    <div>
+      <h2>Latest updates from Gaza and around the world</h2>
+      <p>Welcome to Global News Network, a clean news website that presents articles in a simple and readable layout. Visitors can browse latest stories, categories, and article pages easily.</p>
+      <a href="#latest" class="btn">View Articles</a>
+    </div>
+    <div class="breaking-box">
+      <strong>Breaking News</strong>
+      <p>Humanitarian organizations continue to call for safer aid access and protection for civilians.</p>
+    </div>
+  </section>
+
+  <section id="latest">
+    <h2 class="section-title">Latest Articles</h2>
+    <div class="article-grid">
+      <div class="news-card" data-title="gaza faces severe famine amid blockade" data-category="politics" data-text="gaza faces severe famine amid blockade politics millions of people in gaza are facing serious food shortages as the humanitarian situation becomes harder every day.">
+        <img src="images/gaza_famine.jpg" alt="Gaza Faces Severe Famine Amid Blockade">
+        <div class="card-body">
+          <span class="category-label">Politics</span>
+          <h3>Gaza Faces Severe Famine Amid Blockade</h3>
+          <p>Millions of people in Gaza are facing serious food shortages as the humanitarian situation becomes harder every day.</p>
+          <a class="read-more" href="article-1.html">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-title="power outages hit gaza again" data-category="politics" data-text="power outages hit gaza again politics electricity cuts continue to affect hospitals, schools, homes, and small businesses in gaza.">
+        <img src="images/gaza_power.jpg" alt="Power Outages Hit Gaza Again">
+        <div class="card-body">
+          <span class="category-label">Politics</span>
+          <h3>Power Outages Hit Gaza Again</h3>
+          <p>Electricity cuts continue to affect hospitals, schools, homes, and small businesses in Gaza.</p>
+          <a class="read-more" href="article-2.html">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-title="tech startups grow despite challenges" data-category="technology" data-text="tech startups grow despite challenges technology young developers and technology teams in gaza continue to build digital products despite difficult conditions.">
+        <img src="images/gaza_tech.jpg" alt="Tech Startups Grow Despite Challenges">
+        <div class="card-body">
+          <span class="category-label">Technology</span>
+          <h3>Tech Startups Grow Despite Challenges</h3>
+          <p>Young developers and technology teams in Gaza continue to build digital products despite difficult conditions.</p>
+          <a class="read-more" href="article-3.html">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-title="youth football league resumes in gaza" data-category="sports" data-text="youth football league resumes in gaza sports local youth football activities have returned in some areas, giving young players a chance to practice and enjoy sports again.">
+        <img src="images/gaza_sports.jpg" alt="Youth Football League Resumes in Gaza">
+        <div class="card-body">
+          <span class="category-label">Sports</span>
+          <h3>Youth Football League Resumes in Gaza</h3>
+          <p>Local youth football activities have returned in some areas, giving young players a chance to practice and enjoy sports again.</p>
+          <a class="read-more" href="article-4.html">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-title="young artists share stories online" data-category="entertainment" data-text="young artists share stories online entertainment a group of young artists in gaza are using social media to share drawings, short videos, and personal stories.">
+        <img src="images/aza_entertainment.jpg" alt="Young Artists Share Stories Online">
+        <div class="card-body">
+          <span class="category-label">Entertainment</span>
+          <h3>Young Artists Share Stories Online</h3>
+          <p>A group of young artists in Gaza are using social media to share drawings, short videos, and personal stories.</p>
+          <a class="read-more" href="article-5.html">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-title="students use online learning to keep studying" data-category="technology" data-text="students use online learning to keep studying technology many university students are trying to continue their education through online resources, recorded lectures, and small study groups.">
+        <img src="images/gaza_tech.jpg" alt="Students Use Online Learning to Keep Studying">
+        <div class="card-body">
+          <span class="category-label">Technology</span>
+          <h3>Students Use Online Learning to Keep Studying</h3>
+          <p>Many university students are trying to continue their education through online resources, recorded lectures, and small study groups.</p>
+          <a class="read-more" href="article-6.html">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="editor-section">
+    <div class="editor-text">
+      <span class="small-title">Project Overview</span>
+      <h2>News organized in a simple and readable way</h2>
+      <p>The website organizes news content using article cards, categories, a search page, and single article pages. The layout is simple so visitors can move between topics without confusion.</p>
+      <div class="quick-stats">
+        <div><strong>6</strong><span>Articles</span></div>
+        <div><strong>4</strong><span>Categories</span></div>
+      </div>
+    </div>
+    <div class="notice-list">
+      <h3>What you can browse</h3>
+      <ul>
+        <li>Latest news articles displayed in responsive cards.</li>
+        <li>Category sections for politics, technology, sports, and entertainment.</li>
+        <li>A simple search page for finding related articles.</li>
+        <li>Contact page with message and login form designs.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Categories Overview</h2>
+    <div class="info-sections">
+      <div class="info-box"><h3>Politics</h3><p>Updates about public affairs, aid access, and local conditions.</p></div>
+      <div class="info-box"><h3>Technology</h3><p>Stories about students, startups, and digital solutions.</p></div>
+      <div class="info-box"><h3>Sports</h3><p>Local sports activities and youth programs.</p></div>
+      <div class="info-box"><h3>Entertainment</h3><p>Creative work, art, and community stories.</p></div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2025 Global News Network. Student Project.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+<button id="backToTop" class="back-to-top" title="Back to top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
